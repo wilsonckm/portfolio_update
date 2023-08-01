@@ -1,0 +1,11 @@
+header {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 7rem;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
