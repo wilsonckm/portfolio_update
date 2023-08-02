@@ -2,11 +2,11 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
-import Experience from "./components/Experience/Experience";
-import Contact from "./components/Contact/Contact";
+import Hero from "./pages/Hero/Hero";
+import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
+import Experience from "./pages/Experience/Experience";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
