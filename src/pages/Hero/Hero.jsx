@@ -1,14 +1,10 @@
 import { useEffect, useRef } from "react";
 import "./Hero.css";
 import { motion, useAnimation, useInView } from "framer-motion";
-import SplitType from "split-type";
 
 export default function Hero() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
-  // const hero = new SplitType(".hero-main");
-  // console.log(hero.chars);
 
   const mainControls = useAnimation();
 
