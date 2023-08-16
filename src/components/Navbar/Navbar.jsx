@@ -1,8 +1,11 @@
+import { Link } from "react-scroll";
+import Resume from "../../ScreenShots/Wilson_Chan_CS_Resume.pdf";
+
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/home">
           WC
         </a>
         <button
@@ -19,46 +22,60 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item ">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link
+                className="nav-link active"
+                aria-current="page"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                duration={200}
+                delay={0}
+                to="about"
+              >
                 About
-              </a>
+              </Link>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                duration={200}
+                delay={0}
+                to="projects"
               >
                 Projects
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Project 1
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Project 2
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Project 3
-                  </a>
-                </li>
-              </ul>
+              </Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            {/* <li
+              className="nav-item"
+              activeClass="active"
+              smooth
+              spy
+              to="experience"
+            >
+              <a className="nav-link" href="/experience">
                 Experience
               </a>
+            </li> */}
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                duration={200}
+                delay={0}
+                to="contact"
+              >
+                Contact
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
+              <a href={Resume} className="nav-link">
+                Resume
               </a>
             </li>
           </ul>

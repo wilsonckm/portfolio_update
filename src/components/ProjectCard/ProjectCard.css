@@ -1,0 +1,18 @@
+img {
+  max-width: 75%;
+  height: auto;
+}
+
+.project-title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(150, 0, 0);
+}
