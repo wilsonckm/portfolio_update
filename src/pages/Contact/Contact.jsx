@@ -5,12 +5,10 @@ export default function Contact() {
   return (
     <>
       <section id="contact">
-        <div className="mx-auto" style={{ height: "50vh" }}>
-          <div className="d-flex align-items-center justify-content-center">
-            <h1 id="contact-text">
-              <a href="mailto: wilsonckmchan@gmail.com">Let's work together</a>
-            </h1>
-          </div>
+        <div className="container text-center">
+          <h1 id="contact-text">
+            <a href="mailto: wilsonckmchan@gmail.com">Let's work together</a>
+          </h1>
           <div className="d-flex align-items-center justify-content-center">
             <a href="https://www.linkedin.com/in/wilsonckmchan/">
               <svg

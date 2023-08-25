@@ -26,7 +26,7 @@ export default function Hero() {
         transition={{ duration: 0.5, delay: 0.25 }}
       >
         <div
-          className="d-flex align-items-center justify-content-center"
+          className="d-flex align-items-center justify-content-sm-center"
           style={{ height: "80vh" }}
         >
           <h1 id="hero-text" className="hero-main">
