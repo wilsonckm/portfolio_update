@@ -2,6 +2,8 @@ import { Link } from "react-scroll";
 import Resume from "../../ScreenShots/Wilson_Chan_CS_Resume.pdf";
 
 export default function Navbar() {
+  const navbarHeight = 55;
+
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
@@ -31,6 +33,7 @@ export default function Navbar() {
                 duration={200}
                 delay={0}
                 to="about"
+                offset={-navbarHeight}
               >
                 About
               </Link>
@@ -45,6 +48,7 @@ export default function Navbar() {
                 duration={200}
                 delay={0}
                 to="projects"
+                offset={-navbarHeight}
               >
                 Projects
               </Link>

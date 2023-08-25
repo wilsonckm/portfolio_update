@@ -5,7 +5,10 @@ export default function Contact() {
   return (
     <>
       <section id="contact">
-        <div className="container text-center">
+        <div
+          className="container text-center"
+          style={{ minHeight: "60vh", marginTop: "50vh" }}
+        >
           <h1 id="contact-text">
             <a href="mailto: wilsonckmchan@gmail.com">Let's work together</a>
           </h1>

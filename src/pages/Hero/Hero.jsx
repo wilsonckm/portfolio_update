@@ -25,13 +25,19 @@ export default function Hero() {
         animate="visible"
         transition={{ duration: 0.5, delay: 0.25 }}
       >
-        <div
-          className="d-flex align-items-center justify-content-sm-center"
-          style={{ height: "80vh" }}
-        >
-          <h1 id="hero-text" className="hero-main">
-            Wilson Chan
-          </h1>
+        <div className="container">
+          <div
+            className="d-flex align-items-center justify-content-sm-center"
+            style={{
+              minHeight: "50vh",
+              marginTop: "20vh",
+              marginBottom: "20vh",
+            }}
+          >
+            <h1 id="hero-text" className="hero-main">
+              Wilson Chan
+            </h1>
+          </div>
         </div>
       </motion.div>
     </>

@@ -5,10 +5,15 @@ import "./About.css";
 export default function About() {
   return (
     <>
-      <section id="about">
-        <div className="container">
-          <div className="d-flex align-items-start" style={{ height: "100vh" }}>
-            <h2>
+      <div
+        id="about"
+        className="container"
+        style={{ Height: "60vh", marginTop: "10vh" }}
+      >
+        <h2>About Me</h2>
+        <div className="container" style={{ margin: "40px" }}>
+          <div className="d-flex align-items-center justify-content-sm-center">
+            <h3>
               Hello there! Wilson here. I am a software engineer based in NYC
               with a background in physical therapy and passion for health and
               fitness.
@@ -23,10 +28,10 @@ export default function About() {
               <br />
               Hope you enjoy taking a look at my projects down below and feel
               free to contact me if you have any questions!
-            </h2>
+            </h3>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }
