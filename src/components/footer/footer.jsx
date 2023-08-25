@@ -4,7 +4,7 @@ export default function Footer() {
       className="d-flex align-items-center justify-content-center"
       style={{ height: "10vh" }}
     >
-      2023 Wilson Chan
+      2023 | Wilson Chan
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       <section id="contact">
-        <div style={{ height: "50vh" }}>
+        <div className="mx-auto" style={{ height: "50vh" }}>
           <div className="d-flex align-items-center justify-content-center">
             <h1 id="contact-text">
               <a href="mailto: wilsonckmchan@gmail.com">Let's work together</a>

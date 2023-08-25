@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/home">
+        <a className="navbar-brand" href="/">
           WC
         </a>
         <button
@@ -49,17 +49,6 @@ export default function Navbar() {
                 Projects
               </Link>
             </li>
-            {/* <li
-              className="nav-item"
-              activeClass="active"
-              smooth
-              spy
-              to="experience"
-            >
-              <a className="nav-link" href="/experience">
-                Experience
-              </a>
-            </li> */}
             <li className="nav-item">
               <Link
                 className="nav-link"
